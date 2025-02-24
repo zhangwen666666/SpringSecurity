@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: security-01-base
+
+  security:
+    user:
+      name: cat
+      password: aaa111
