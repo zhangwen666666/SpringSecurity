@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: security-05-login-info
+
+  # jackson 转换日期时只用指定的时区和格式
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+
+  datasource:
+    username: root
+    password: 1234
+    url: jdbc:mysql://localhost:3306/dlyk
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  type-aliases-package: com.zw.entity
+  mapper-locations: classpath:/mapper/*.xml
