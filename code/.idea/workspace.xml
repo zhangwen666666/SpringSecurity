@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../document/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../document/笔记.md" afterDir="false" />
     </list>
@@ -19,6 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -58,6 +61,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -94,12 +98,12 @@
       <recent name="F:\JavaCode\SpringSecurity\code\security-04-captcha-login\src\main\resources\mapper" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Security05LoginInfoApplication">
+  <component name="RunManager" selected="Spring Boot.Security06RolePermissionApplication">
     <configuration name="Security04CaptchaLoginApplicationTests.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="security-04-captcha-login" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zw.*" />
+          <option name="PATTERN" value="com.zw.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,6 +150,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Security06RolePermissionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="security-06-role-permission" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zw.Security06RolePermissionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Security04CaptchaLoginApplicationTests.test01" />
@@ -160,11 +171,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740471952291</updated>
-      <workItem from="1740471953317" duration="17621000" />
+      <workItem from="1740471953317" duration="27710000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/security-05-login-info/src/main/java/com/zw/filter/CaptchaFilter.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/security-06-role-permission/src/main/java/com/zw/filter/CaptchaFilter.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.springframework.security.authentication.UsernamePasswordAuthenticationToken" memberName="details" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
