@@ -1,6 +1,7 @@
 package com.zw.controller;
 
 import com.zw.entity.User;
+import com.zw.util.UserInfoUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
@@ -25,10 +26,6 @@ public class UserController {
     @RequestMapping("/welcome")
     @ResponseBody
     public User welcome(){
-        User user = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-        log.info(user.toString());
-        Integer id = user.getId();
-        return user;
-//        return UserInfoUtil.getCurrentUser();
+        return UserInfoUtil.getCurrentUser();
     }
 }

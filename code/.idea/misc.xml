@@ -7,11 +7,11 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/security-03-login-page/pom.xml" />
-        <option value="$PROJECT_DIR$/security-02-db-login/pom.xml" />
+        <option value="$PROJECT_DIR$/security-08-review/pom.xml" />
         <option value="$PROJECT_DIR$/security-01-base/pom.xml" />
         <option value="$PROJECT_DIR$/security-04-captcha-login/pom.xml" />
-        <option value="$PROJECT_DIR$/security-05-login-info/pom.xml" />
+        <option value="$PROJECT_DIR$/security-07-code-premission/pom.xml" />
+        <option value="$PROJECT_DIR$/security-07-code-permission/pom.xml" />
         <option value="$PROJECT_DIR$/security-06-role-permission/pom.xml" />
       </list>
     </option>

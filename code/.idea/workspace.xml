@@ -4,12 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7b9439b-d165-44cf-b1fe-6f02ebc50657" name="更改" comment="">
+    <list default="true" id="614e4e6e-eee0-4ae2-925b-959bd9fdb5b1" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/dlyk.mhkvAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/exam.H7gvAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/flower_sales_system.Jvz7wg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/jdbc.-7IxAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/jdbc.-7IxAA.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/mvc.2qcBAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/powernode.hyxsMg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/powernode.hyxsMg.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/sky_take_out.9CAXBg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/springboot.f24xUQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/sys.zb4BAA.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/zw.PQ8AAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-06-role-permission/src/main/java/com/zw/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-06-role-permission/src/main/java/com/zw/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-06-role-permission/src/main/java/com/zw/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-06-role-permission/src/main/java/com/zw/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-06-role-permission/src/main/java/com/zw/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-06-role-permission/src/main/java/com/zw/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-06-role-permission/src/main/java/com/zw/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-06-role-permission/src/main/java/com/zw/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../document/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../document/笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,19 +46,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="JsbtTreeLayoutManager">
-    <layout place="tools.popupGrunt">
-      <scroll-view-position x="0" y="0" />
-    </layout>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -45,13 +64,10 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
+  "associatedIndex": 0
 }]]></component>
-  <component name="ProjectId" id="2tWdq2QUu3CGZuBkxI6NfZd4Bkg" />
+  <component name="ProjectId" id="2tcI35ZE5bvuwGMoV1UpRuMH6Mj" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -61,25 +77,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "21",
-    "last_opened_file_path": "F:/JavaCode/SpringSecurity/code/security-05-login-info/src/main/resources",
+    "last_opened_file_path": "F:/JavaCode/SpringSecurity/code/security-07-code-permission/src/main/java/com/zw/controller",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
     "vue.rearranger.settings.migration": "true"
   },
@@ -91,47 +101,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\JavaCode\SpringSecurity\code\security-05-login-info\src\main\resources" />
-      <recent name="F:\JavaCode\SpringSecurity\code\security-05-login-info\src\main\java\com\zw" />
-      <recent name="F:\JavaCode\SpringSecurity\code\security-04-captcha-login\src\main\resources" />
-      <recent name="F:\JavaCode\SpringSecurity\code\security-04-captcha-login\src\main\resources\templates" />
-      <recent name="F:\JavaCode\SpringSecurity\code\security-04-captcha-login\src\main\resources\mapper" />
+      <recent name="F:\JavaCode\SpringSecurity\code\security-07-code-permission\src\main\java\com\zw\controller" />
+      <recent name="F:\JavaCode\SpringSecurity\code\security-07-code-premission\src\main\resources\static" />
+      <recent name="F:\JavaCode\SpringSecurity\code\security-07-code-premission\src\main\resources\templates" />
+      <recent name="F:\JavaCode\SpringSecurity\code\security-07-code-premission\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Security06RolePermissionApplication">
-    <configuration name="Security04CaptchaLoginApplicationTests.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="security-04-captcha-login" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zw.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zw" />
-      <option name="MAIN_CLASS_NAME" value="com.zw.Security04CaptchaLoginApplicationTests" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.Security07CodePermissionApplication">
     <configuration name="BaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="security-01-base" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zw.BaseApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DbLoginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="security-02-db-login" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zw.DbLoginApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginPageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="security-03-login-page" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zw.LoginPageApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,13 +122,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Security05LoginInfoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="security-05-login-info" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zw.Security05LoginInfoApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Security06RolePermissionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="security-06-role-permission" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zw.Security06RolePermissionApplication" />
@@ -157,46 +129,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.Security04CaptchaLoginApplicationTests.test01" />
-      </list>
-    </recent_temporary>
+    <configuration name="Security07CodePermissionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="security-07-code-permission" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zw.Security07CodePermissionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Security07CodePremissionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="security-07-code-permission" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zw.Security07CodePremissionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Security07ReviewApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="security-08-review" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zw.Security07ReviewApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="c7b9439b-d165-44cf-b1fe-6f02ebc50657" name="更改" comment="" />
-      <created>1740471952291</created>
+      <changelist id="614e4e6e-eee0-4ae2-925b-959bd9fdb5b1" name="更改" comment="" />
+      <created>1740644735118</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1740471952291</updated>
-      <workItem from="1740471953317" duration="27710000" />
+      <updated>1740644735118</updated>
+      <workItem from="1740644736893" duration="4489000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/security-05-login-info/src/main/java/com/zw/filter/CaptchaFilter.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/security-06-role-permission/src/main/java/com/zw/filter/CaptchaFilter.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <pin-to-top-manager>
-      <pinned-members>
-        <PinnedItemInfo parentTag="org.springframework.security.authentication.UsernamePasswordAuthenticationToken" memberName="details" />
-      </pinned-members>
-    </pin-to-top-manager>
   </component>
 </project>

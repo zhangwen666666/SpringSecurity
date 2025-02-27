@@ -3,9 +3,12 @@ package com.zw.entity;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+import java.io.Serial;
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Date;
 import java.util.List;
@@ -16,6 +19,9 @@ import java.util.List;
  */
 @Data
 public class User implements Serializable, UserDetails {
+    @Serial
+    private static final long serialVersionUID = 1L;
+
     /**
      * 主键，自动增长，用户ID
      */
@@ -93,11 +99,23 @@ public class User implements Serializable, UserDetails {
      */
     private Date lastLoginTime;
 
-    private static final long serialVersionUID = 1L;
+    /**
+     * 用户的角色列表
+     */
+    @JsonIgnore
+    private List<TRole> tRoleList;
+
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return List.of();
+        // 权限列表
+        Collection<GrantedAuthority> authorities = new ArrayList<>();
+        for (TRole tRole : tRoleList) {
+            // 遍历用户的角色列表，并将每个角色的英文名添加到集合中
+             authorities.add(new SimpleGrantedAuthority("ROLE_" + tRole.getRole())); // 使用hasRole
+//            authorities.add(new SimpleGrantedAuthority(tRole.getRole())); // 使用hasAuthority
+        }
+        return authorities; // 反回用户的权限
     }
 
     @Override
