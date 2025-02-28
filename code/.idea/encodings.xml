@@ -6,6 +6,8 @@
     <file url="file://$PROJECT_DIR$/security-06-role-permission/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/security-07-code-permission/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/security-08-review/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-09-login-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-10-jwt/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../../Maven/repository/org/springframework/boot/spring-boot-starter-parent/3.4.3/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

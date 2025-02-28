@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="js/axios.min.js"></script>
+    <title>登录</title>
+</head>
+<body>
+    <!--这种请求方式没有发送AJAX请求，不涉及跨域问题，但是拿不到后端返回的数据-->
+    <!--<form action="http://localhost:8080/login" method="post">
+        账号：<input type="text" name="username"/><br>
+        密码：<input type="password" name="password"><br>
+        <input type="submit" value="登录">
+    </form>-->
+
+    <form>
+        账号：<input type="text" id="username" name="username"/><br>
+        密码：<input type="password" id="password" name="password"><br>
+        <input type="button" value="登录" onclick="login()">
+    </form>
+</body>
+
+<script type="text/javascript">
+    function login(){
+        let username = document.getElementById("username").value;
+        let password = document.getElementById("password").value;
+        //alert(username)
+
+        // 以下这种方式，发送给后端的数据是一个JSON格式，
+        // SpringSecurity框架在获取用户名和密码时采用的是request.getParameter方法
+        // 这种方法是获取不到JSON格式的数据的
+        /*
+        axios.post('http://localhost:8080/login', {
+          username: username,
+          password: password
+        }).then(response => {
+            console.log('响应数据:', response.data);
+        }).catch(error => {
+            console.error('请求失败:', error);
+        });
+        */
+
+        // JavaScript中的对象FormData，以k-v的形式存放数据
+        let formData = new FormData();
+        formData.append("username", username);
+        formData.append("password", password);
+        axios.post('http://localhost:8080/login', formData).then(response => {
+            console.log(response);
+            // 进行登录结果的判断和页面的跳转
+            if (response.data.code === 200){
+                window.location.href = "welcome.html"
+            } else{
+                alert(response.data.msg)
+            }
+        }).catch(error => {
+            console.error('请求失败:', error);
+        });
+
+    }
+</script>
+
+</html>

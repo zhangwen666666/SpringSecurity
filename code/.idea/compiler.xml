@@ -12,6 +12,8 @@
       <module name="security-06-role-permission" options="-parameters" />
       <module name="security-07-code-permission" options="-parameters" />
       <module name="security-08-review" options="-parameters" />
+      <module name="security-09-login-api" options="-parameters" />
+      <module name="security-10-jwt" options="-parameters" />
     </option>
   </component>
 </project>

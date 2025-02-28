@@ -5,37 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="614e4e6e-eee0-4ae2-925b-959bd9fdb5b1" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/dlyk.mhkvAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/exam.H7gvAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/flower_sales_system.Jvz7wg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/jdbc.-7IxAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/jdbc.-7IxAA.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/mvc.2qcBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/powernode.hyxsMg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/powernode.hyxsMg.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/sky_take_out.9CAXBg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/springboot.f24xUQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/sys.zb4BAA.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c99dc89-4b54-42f3-b8f7-7d7e8cc5a159/storage_v2/_src_/schema/zw.PQ8AAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ea03ae6c-087f-4e86-9621-d26e4b173964.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ea03ae6c-087f-4e86-9621-d26e4b173964.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-06-role-permission/src/main/java/com/zw/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-06-role-permission/src/main/java/com/zw/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-06-role-permission/src/main/java/com/zw/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-06-role-permission/src/main/java/com/zw/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-06-role-permission/src/main/java/com/zw/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-06-role-permission/src/main/java/com/zw/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-06-role-permission/src/main/java/com/zw/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-06-role-permission/src/main/java/com/zw/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../document/~$ring Security.doc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../document/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../document/笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -64,9 +42,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2tcI35ZE5bvuwGMoV1UpRuMH6Mj" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -77,6 +55,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -85,11 +64,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "F:/JavaCode/SpringSecurity/code/security-07-code-permission/src/main/java/com/zw/controller",
+    "jdk.selected.JAVA_MODULE": "21",
+    "last_opened_file_path": "F:/JavaCode/SpringSecurity/code/security-10-jwt/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
     "vue.rearranger.settings.migration": "true"
   },
@@ -101,13 +85,37 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\JavaCode\SpringSecurity\code\security-07-code-permission\src\main\java\com\zw\controller" />
-      <recent name="F:\JavaCode\SpringSecurity\code\security-07-code-premission\src\main\resources\static" />
-      <recent name="F:\JavaCode\SpringSecurity\code\security-07-code-premission\src\main\resources\templates" />
-      <recent name="F:\JavaCode\SpringSecurity\code\security-07-code-premission\src\main\resources" />
+      <recent name="F:\JavaCode\SpringSecurity\code\security-10-jwt\src\main\resources" />
+      <recent name="F:\JavaCode\SpringSecurity\code\security-10-jwt\src\main\java\com\zw" />
+      <recent name="F:\JavaCode\SpringSecurity\code\security-09-login-front" />
+      <recent name="F:\JavaCode\SpringSecurity\code\security-09-login-front\js" />
+      <recent name="F:\JavaCode\SpringSecurity\code\security-09-login-api\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\JavaCode\SpringSecurity\code\security-09-login-front\js" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zw.entity" />
+      <recent name="com.zw.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Security07CodePermissionApplication">
+  <component name="RunManager" selected="JUnit.Security10JwtApplicationTests.contextLoads">
+    <configuration name="Security10JwtApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="security-10-jwt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zw" />
+      <option name="MAIN_CLASS_NAME" value="com.zw.Security10JwtApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="security-01-base" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zw.BaseApplication" />
@@ -150,6 +158,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Security09LoginApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="security-09-login-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zw.Security09LoginApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Security10JwtApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="security-10-jwt" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zw.Security10JwtApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Security10JwtApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -159,11 +186,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740644735118</updated>
-      <workItem from="1740644736893" duration="4489000" />
+      <workItem from="1740644736893" duration="27365000" />
+      <workItem from="1740739102291" duration="711000" />
+      <workItem from="1740748977973" duration="1460000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.springframework.web.cors.UrlBasedCorsConfigurationSource" memberName="allowInitLookupPath" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
