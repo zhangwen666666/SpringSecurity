@@ -1,5 +1,7 @@
 package com.zw.config;
 
+import com.zw.filter.TokenFilter;
+import com.zw.handler.MyAccessDeniedHandler;
 import com.zw.handler.MyAuthenticationFailureHandler;
 import com.zw.handler.MyAuthenticationSuccessHandler;
 import com.zw.handler.MyLogoutSuccessHandler;
@@ -12,6 +14,7 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.authentication.logout.LogoutFilter;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
@@ -28,6 +31,10 @@ public class SecurityConfig {
     private MyAuthenticationFailureHandler myAuthenticationFailureHandler;
     @Autowired
     private MyLogoutSuccessHandler myLogoutSuccessHandler;
+    @Autowired
+    private TokenFilter tokenFilter;
+    @Autowired
+    private MyAccessDeniedHandler accessDeniedHandler;
 
     @Bean
     public PasswordEncoder passwordEncoder() {
@@ -81,6 +88,13 @@ public class SecurityConfig {
                 .sessionManagement(t -> {
                     // 创建session采用无状态策略，即不创建session
                     t.sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+                })
+                // 在退出登录的Filter之前加入token验证的Filter
+                // 这样在退出登录时就可以拿到认证信息，获取到用户id，从而删除token
+                .addFilterBefore(tokenFilter, LogoutFilter.class)
+                // 权限不足的处理 (无权限时执行该handler)
+                .exceptionHandling(t -> {
+                    t.accessDeniedHandler(accessDeniedHandler);
                 })
                 .build();
     }

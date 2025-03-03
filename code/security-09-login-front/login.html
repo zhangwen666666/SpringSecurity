@@ -48,6 +48,10 @@
             console.log(response);
             // 进行登录结果的判断和页面的跳转
             if (response.data.code === 200){
+                // console.log(response.data.data)
+                // 把token存储在前端浏览器当中
+                window.sessionStorage.setItem("loginToken", response.data.data);
+                // window.localStorage.setItem("loginToken", response.data.data);
                 window.location.href = "welcome.html"
             } else{
                 alert(response.data.msg)

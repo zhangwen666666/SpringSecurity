@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:mysql://localhost:3306/dlyk</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="0@111.119.211.126" uuid="f3a24607-6897-4d09-b666-59ae8bc71c1e">
+      <driver-ref>redis</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>jdbc.RedisDriver</jdbc-driver>
+      <jdbc-url>jdbc:redis://111.119.211.126:6379/0</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

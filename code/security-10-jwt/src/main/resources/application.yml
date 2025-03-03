@@ -12,8 +12,16 @@ spring:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
 
+  data:
+    redis:
+      host: 111.119.211.126
+      port: 6379
+      password: 1234
+      database: 0
+
 mybatis:
   mapper-locations: classpath:/mapper/*.xml
   configuration:
     map-underscore-to-camel-case: true
   type-aliases-package: com.zw.entity
+

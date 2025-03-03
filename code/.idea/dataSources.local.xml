@@ -15,5 +15,21 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
+    <data-source name="0@111.119.211.126" uuid="f3a24607-6897-4d09-b666-59ae8bc71c1e">
+      <database-info product="Redis Standalone" version="7.0.4" jdbc-version="4.2" driver-name="Redis JDBC Driver" driver-version="1.5" dbms="REDIS" exact-version="7.0.4" exact-driver-version="1.5">
+        <jdbc-catalog-is-schema>true</jdbc-catalog-is-schema>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="0" />
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>6800dd3d-f4a8-4a3e-8b05-5d81c1f45548</ssh-config-id>
+      </ssh-properties>
+    </data-source>
   </component>
 </project>

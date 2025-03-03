@@ -1,11 +1,14 @@
 package com.zw.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import java.io.Serial;
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Date;
 import java.util.List;
@@ -94,9 +97,20 @@ public class User implements Serializable, UserDetails {
      */
     private Date lastLoginTime;
 
+    /**
+     * 用户权限列表(权限标识符)
+     */
+    @JsonIgnore
+    private List<Permission> permissionList;
+
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return List.of();
+        Collection<GrantedAuthority> authorities = new ArrayList<>();
+        for (Permission permission : permissionList) {
+            // 遍历权限列表，将全权限标识符放入
+            authorities.add(new SimpleGrantedAuthority(permission.getCode()));
+        }
+        return authorities;
     }
 
     @Override

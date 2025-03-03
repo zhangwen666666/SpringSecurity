@@ -5,15 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="614e4e6e-eee0-4ae2-925b-959bd9fdb5b1" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ea03ae6c-087f-4e86-9621-d26e4b173964.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ea03ae6c-087f-4e86-9621-d26e4b173964.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../document/~$ring Security.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../document/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../document/笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-09-login-front/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/security-09-login-front/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-09-login-front/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/security-09-login-front/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-10-jwt/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/security-10-jwt/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-10-jwt/src/main/java/com/zw/Security10JwtApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-10-jwt/src/main/java/com/zw/Security10JwtApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-10-jwt/src/main/java/com/zw/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-10-jwt/src/main/java/com/zw/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-10-jwt/src/main/java/com/zw/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-10-jwt/src/main/java/com/zw/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-10-jwt/src/main/java/com/zw/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-10-jwt/src/main/java/com/zw/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-10-jwt/src/main/java/com/zw/handler/MyAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-10-jwt/src/main/java/com/zw/handler/MyAuthenticationSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-10-jwt/src/main/java/com/zw/handler/MyLogoutSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-10-jwt/src/main/java/com/zw/handler/MyLogoutSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-10-jwt/src/main/java/com/zw/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-10-jwt/src/main/java/com/zw/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-10-jwt/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/security-10-jwt/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-10-jwt/src/test/java/com/zw/Security10JwtApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-10-jwt/src/test/java/com/zw/Security10JwtApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +71,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "21",
-    "last_opened_file_path": "F:/JavaCode/SpringSecurity/code/security-10-jwt/src/main/resources",
+    "last_opened_file_path": "F:/JavaCode/SpringSecurity/code/security-10-jwt/src/main/resources/static/error",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,32 +80,37 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "settings.editor.selected.configurable": "editing.templates",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
-      "mysql"
+      "mysql",
+      "redis"
     ]
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\JavaCode\SpringSecurity\code\security-10-jwt\src\main\resources\static\error" />
       <recent name="F:\JavaCode\SpringSecurity\code\security-10-jwt\src\main\resources" />
+      <recent name="F:\JavaCode\SpringSecurity\code\security-10-jwt\src\main\resources\mapper" />
       <recent name="F:\JavaCode\SpringSecurity\code\security-10-jwt\src\main\java\com\zw" />
       <recent name="F:\JavaCode\SpringSecurity\code\security-09-login-front" />
-      <recent name="F:\JavaCode\SpringSecurity\code\security-09-login-front\js" />
-      <recent name="F:\JavaCode\SpringSecurity\code\security-09-login-api\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\JavaCode\SpringSecurity\code\security-09-login-front\js" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zw.mapper" />
       <recent name="com.zw.entity" />
       <recent name="com.zw.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Security10JwtApplicationTests.contextLoads">
+  <component name="RunManager" selected="Spring Boot.Security10JwtApplication">
     <configuration name="Security10JwtApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="security-10-jwt" />
       <extension name="coverage">
@@ -111,6 +122,22 @@
       <option name="PACKAGE_NAME" value="com.zw" />
       <option name="MAIN_CLASS_NAME" value="com.zw.Security10JwtApplicationTests" />
       <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Security10JwtApplicationTests.testHuTool" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="security-10-jwt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zw" />
+      <option name="MAIN_CLASS_NAME" value="com.zw.Security10JwtApplicationTests" />
+      <option name="METHOD_NAME" value="testHuTool" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,6 +201,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Security10JwtApplicationTests.testHuTool" />
         <item itemvalue="JUnit.Security10JwtApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
@@ -188,7 +216,7 @@
       <updated>1740644735118</updated>
       <workItem from="1740644736893" duration="27365000" />
       <workItem from="1740739102291" duration="711000" />
-      <workItem from="1740748977973" duration="1460000" />
+      <workItem from="1740748977973" duration="24929000" />
     </task>
     <servers />
   </component>

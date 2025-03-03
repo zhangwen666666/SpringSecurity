@@ -17,6 +17,6 @@ public class UserController {
     @GetMapping("/welcome")
     @ResponseBody
     public User welcome(){
-        return ((User) SecurityContextHolder.getContext().getAuthentication().getPrincipal());
+        return (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
     }
 }

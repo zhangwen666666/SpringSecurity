@@ -11,24 +11,78 @@
     <!--用户登录成功之后点击链接发送请求获取用户信息-->
     <a href="javascript:getUserInfo()">获取用户信息</a><br>
     <a href="javascript:void(0)" onclick="getUserInfo()">获取用户信息</a><br>
+
+    <a href="javascript:clueList()">线索列表</a><br>
+    <a href="javascript:clueInput()">线索录入</a><br>
+    <a href="javascript:clueDelete()">线索删除</a><br> <!--zhangqi没有权限-->
 </body>
 <script type="text/javascript">
     function getUserInfo() {
-        axios.get('http://localhost:8080/welcome').then(response => {
-            console.log(response.data); // 打印返回的数据
+        let token = window.sessionStorage.getItem("loginToken");
+        axios({
+            method: 'get',
+            url: 'http://localhost:8080/welcome',
+            responseType: 'json',
+            // 自定义请求头 携带jwt
+            headers: {'token': token},
+        }).then((res) => {
+            console.log(res)
         })
-        .catch(error => {
-            console.error('请求出错:', error);
-        });
     }
 
     function logout() {
-        axios.get('http://localhost:8080/logout').then(response => {
-            console.log(response.data); // 打印返回的数据
+        let token = window.sessionStorage.getItem("loginToken");
+        axios({
+            method: 'get',
+            url: 'http://localhost:8080/logout',
+            responseType: 'json',
+            // 自定义请求头 携带jwt
+            headers: {'token': token},
+        }).then((res) => {
+            console.log(res)
         })
-            .catch(error => {
-                console.error('请求出错:', error);
-            });
+    }
+
+    function clueList(){
+        let token = window.sessionStorage.getItem("loginToken");
+        axios({
+            method: 'get',
+            url: 'http://localhost:8080/api/clue/list',
+            responseType: 'json',
+            // 自定义请求头 携带jwt
+            headers: {'token': token},
+        }).then((res) => {
+            console.log("访问/api/clue/list")
+            console.log(res)
+        })
+    }
+
+    function clueInput(){
+        let token = window.sessionStorage.getItem("loginToken");
+        axios({
+            method: 'get',
+            url: 'http://localhost:8080/api/clue/input',
+            responseType: 'json',
+            // 自定义请求头 携带jwt
+            headers: {'token': token},
+        }).then((res) => {
+            console.log("访问/api/clue/input")
+            console.log(res)
+        })
+    }
+
+    function clueDelete(){
+        let token = window.sessionStorage.getItem("loginToken");
+        axios({
+            method: 'get',
+            url: 'http://localhost:8080/api/clue/del',
+            responseType: 'json',
+            // 自定义请求头 携带jwt
+            headers: {'token': token},
+        }).then((res) => {
+            console.log("访问/api/clue/del")
+            console.log(res)
+        })
     }
 </script>
 </html>
